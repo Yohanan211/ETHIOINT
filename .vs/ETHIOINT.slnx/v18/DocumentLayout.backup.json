@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|c:\\users\\hp\\source\\repos\\ethioint\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|c:\\users\\hp\\source\\repos\\ethioint\\views\\home\\getstarted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|solutionrelative:views\\home\\getstarted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|c:\\users\\hp\\source\\repos\\ethioint\\views\\home\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|solutionrelative:views\\home\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|c:\\users\\hp\\source\\repos\\ethioint\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|solutionrelative:views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|c:\\users\\hp\\source\\repos\\ethioint\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F75099-FA3C-7092-6078-1FDF8AEF065A}|ETHIOINT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\Auth.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Auth.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\Auth.cshtml",
+              "RelativeToolTip": "Views\\Home\\Auth.cshtml",
+              "ViewState": "AgIAABoCAAAAAAAAAAAAwPQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T18:44:38.218Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "getstarted.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\getstarted.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\getstarted.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\getstarted.cshtml",
+              "RelativeToolTip": "Views\\Home\\getstarted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T08:45:45.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\welcome.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\welcome.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\welcome.cshtml",
+              "RelativeToolTip": "Views\\Home\\welcome.cshtml",
+              "ViewState": "AgIAALsAAAAAXFUdonj+v/kAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T04:36:44.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACkBAAAAAAAAAAAkwDABAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T16:42:39.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ETHIOINT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T18:47:03.225Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

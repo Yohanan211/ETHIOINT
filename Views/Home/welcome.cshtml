@@ -1,0 +1,327 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthioINT Dashboard</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom right,#eff6ff,#dbeafe);
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .dashboard-container {
+            max-width: 1250px;
+            margin: auto;
+        }
+
+        /* ========================= */
+        /* HEADER */
+        /* ========================= */
+
+        .dashboard-header {
+            background: white;
+            border-radius: 30px;
+            padding: 35px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+            margin-bottom: 35px;
+        }
+
+        .welcome-text h1 {
+            font-size: 42px;
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text p {
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        .logout-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            height: 55px;
+            padding: 0 24px;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+            .logout-btn:hover {
+                background: #1d4ed8;
+            }
+
+        /* ========================= */
+        /* QUICK STATS */
+        /* ========================= */
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 22px;
+            margin-bottom: 35px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 24px;
+            padding: 28px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+        }
+
+            .stat-card h2 {
+                color: #2563eb;
+                font-size: 34px;
+                margin-bottom: 10px;
+            }
+
+            .stat-card p {
+                color: #64748b;
+            }
+
+        /* ========================= */
+        /* SERVICES */
+        /* ========================= */
+
+
+        .services-title {
+            margin-bottom: 25px;
+            color: #0f172a;
+            font-size: 32px;
+        }
+
+        .services-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 24px;
+            padding: 28px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+            transition: 0.3s;
+        }
+
+            .service-card:hover {
+                transform: translateX(6px);
+            }
+
+        .service-left {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+            background: #eff6ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        .service-text h3 {
+            color: #0f172a;
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+
+        .service-text p {
+            color: #64748b;
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        .service-btn {
+            background: #0f172a;
+            color: white;
+            border: none;
+            height: 50px;
+            padding: 0 24px;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .service-btn:hover {
+                background: #1e293b;
+            }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- HEADER -->
+
+        <div class="dashboard-header">
+
+            <div class="welcome-text">
+
+                <h1>
+                    Welcome, Yohanan
+                </h1>
+
+                <p>
+                    Manage your internet services, payments,
+                    subscriptions, and technical support
+                    through your smart dashboard.
+                </p>
+
+            </div>
+
+            <button class="logout-btn">
+                Logout
+            </button>
+
+        </div>
+
+        <!-- STATS -->
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h2>4</h2>
+                <p>Active Services</p>
+            </div>
+
+            <div class="stat-card">
+                <h2>98%</h2>
+                <p>Network Stability</p>
+            </div>
+
+            <div class="stat-card">
+                <h2>2</h2>
+                <p>Pending Requests</p>
+            </div>
+
+        </div>
+
+        <!-- SERVICES -->
+
+        <h2 class="services-title">
+            Available Services
+        </h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Internet Subscription
+                </h3>
+
+                <p>
+                    Monitor your active internet package,
+                    renew subscriptions, and upgrade plans.
+                </p>
+
+                <button class="service-btn">
+                    Open Service
+                </button>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    💳
+                </div>
+
+                <h3>
+                    Digital Payments
+                </h3>
+
+                <p>
+                    Securely pay bills and manage
+                    online transactions in one place.
+                </p>
+
+                <button class="service-btn">
+                    Open Service
+                </button>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🛠
+                </div>
+
+                <h3>
+                    Technician Request
+                </h3>
+
+                <p>
+                    Request installation or technical
+                    support services from professionals.
+                </p>
+
+                <button class="service-btn">
+                    Open Service
+                </button>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    📡
+                </div>
+
+                <h3>
+                    Network Monitoring
+                </h3>
+
+                <p>
+                    Track network performance,
+                    outages, and service availability.
+                </p>
+
+                <button class="service-btn">
+                    Open Service
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
